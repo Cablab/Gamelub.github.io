@@ -1,0 +1,59 @@
+/* STYLESHEET */
+*
+{
+   text-align: center;
+   box-sizing: border-box;
+   color: white;
+}
+div.content
+{
+   width: 70%;
+   margin: 0 auto;
+   background-color: #325b44;
+   padding: 20px;
+   padding-bottom: 80px;
+}
+h1
+{
+   font-size: 50px;
+   background-color: white;
+   padding: 20px;
+   color: #325b44;
+}
+#lottery-numbers
+{
+   font-size: 25px;
+}
+#winning-numbers
+{
+   font-size: 20px;
+}
+button
+{
+   margin-top: 3%;
+   padding: 1%;
+   color: #325b44;
+}
+.test
+{
+   width: 70%;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+img.mood
+{
+   margin-top: 10px;
+   padding: 10px;
+   width: 30%;
+}
+
+.test div
+{
+   font-size: 40px;
+}
+
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]
+{
+   display: none;
+}

@@ -1,0 +1,116 @@
+*
+{
+   font-family: 'Economica', sans-serif;
+   font-size: 18px;
+}
+
+body
+{
+   background-color: #6EB2FF;
+}
+
+img.pizza-guy
+{
+   width: 80px;
+}
+
+h1
+{
+   text-align: center;
+   font-size: 70px;
+   font-family: 'Economica', sans-serif;
+   font-weight: 700;
+}
+
+ul
+{
+   list-style-type: none;
+   margin: 0;
+   margin-bottom: 20px;
+   padding: 0;
+   overflow: hidden;
+   background-color: #DAE5ED;
+   width: 100%;
+}
+
+li
+{
+   float: left;
+}
+
+li a 
+{
+   display: block;
+   color: #6EB2FF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+li a:hover
+{
+   background-color: white;
+   color: black;
+}
+
+.active
+{
+   background-color: white;
+   color: black;
+}
+
+div.main-body
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div.left-images, .body, .right-images
+{
+   box-sizing: border-box;
+   padding: 5px;
+}
+
+div.left-images
+{
+   width: 17%;
+}
+
+div.body
+{
+   width: 66%;
+}
+
+div.right-images
+{
+   width: 17%;
+}
+
+img.main-pics
+{
+   width: 100%;
+}
+
+p
+{
+   font-size: 50px;
+   text-align: justify;
+}
+
+p.tag-line
+{
+   font-weight: 700;
+   text-align: center;
+}
+
+span.tag-line
+{
+   font-size: 50px;
+   font-weight: 700;
+}
+
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]
+{
+   display: none;
+}

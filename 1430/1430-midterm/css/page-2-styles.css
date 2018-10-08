@@ -1,0 +1,89 @@
+*
+{
+   font-family: 'Lemonada', cursive;
+}
+
+h1
+{
+   font-size: 40px;
+   padding: 20px 0px 20px 15px;
+   background-color: white;
+   margin: 0;
+}
+
+ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #ADD8F8;
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+}
+
+li a 
+{
+   display: block;
+   padding: 14px 16px;
+   text-decoration: none;
+   color: black;
+}
+
+li a:hover
+{
+   background-color: white;
+   color: #ADD8F8;
+}
+
+ul li:nth-of-type(2)
+{
+   background-color: white;
+}
+
+div.main
+{
+   display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   float: left;
+   padding-bottom: 254px;
+}
+
+div.main h2
+{
+   margin: 20px auto;
+   padding-top: 20px;
+}
+
+div.main p
+{
+   padding-left: 100px;
+}
+
+div.main
+{
+   width: 70%;
+   background-color: #eee;
+}
+
+div.imgs img
+{
+   display: block;
+   width: 76%;
+   margin-left: auto;
+}
+
+
+div.imgs
+{
+   overflow: hidden;
+   background-color: #eee;
+   height: 100%;
+}
+
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]
+{
+   display: none;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Guess My Number</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <script type="text/javascript" src="js/script.js" defer></script>
+   </head>
+   <body onload="startGame()">
+      <div class="content">
+         <h1 id="gameHeading">Guess the Number!</h1>
+         <div class="image">
+            <img id="gamePic" class="img" src="img/start.jpg">
+         </div>
+
+         <br>
+         <input type="text" name="userGuess" id="guess" placeholder="Enter Your Guess">
+
+         <button onclick="testNum()">Make Guess</button>
+         <button onclick="testGameNum()">Show Number</button>
+         <button onclick="newGame()">Start New Game</button>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Lottery Game</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <script type="text/javascript" src="js/script.js" defer></script>
+   </head>
+   <body onload="runLottery()">
+      <div class="content">
+         <h1>Lottery Numbers</h1>
+
+         <h2>Your Ticket:</h2>
+         <div id="lottery-numbers">YOUR-TICKET-HERE</div>
+
+         <h2>Winning Ticket:</h2>
+         <div id="winning-numbers">WINNING-TICKET-HERE</div>
+
+         <button onclick="showWinners()" onmousedown="goodLuck()">Peek At Winning Numbers</button>
+         <button onclick="newTicket()">Get New Ticket</button>
+         <button onclick="forceWin()">Force Winning Ticket</button>
+         <br>
+         <button onclick="testWin()">Did I Win?</button>
+
+         <div class="test">
+            <div id="answer">&nbsp;</div>
+            <img class="mood" id="face" src="img/question.png">
+         </div>
+      </div>
+   </body>
+</html>
