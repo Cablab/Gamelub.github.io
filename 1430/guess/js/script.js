@@ -46,7 +46,7 @@ function testNum()
       if (userNum - gameNum > 30)
       {
          heading = userNum + " is Too High. You're Freezing!";
-         pic = "img/freezing.jpg";
+         pic = "img/freezing.JPG";
       }
       else if (userNum - gameNum > 20)
       {
