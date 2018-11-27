@@ -4,7 +4,7 @@ var scrollLanding = document.querySelectorAll(".scrollLanding");
 
 for (var i = 0; i < scrollProject.length; i++) {
    scrollProject[i].addEventListener("click", function() {
-      document.querySelector("#projects").scrollIntoView({
+      document.querySelector("#unreal").scrollIntoView({
          behavior: "smooth"
       });
    })
